@@ -2,13 +2,14 @@
 <html lang="en"> 
     <head>
         <title>B.Azimov's portfolio</title>
+        <link href="style1.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
        <header>
         <h1>Portfolio for Boburjon Azimov</h1>
        </header> 
-        <hr />
-       <nav>
+        <nav class="border">
+        <hr style="border: thin dashed red;">
         <table width="40%">
             <tr>
                 <th><a href="index.html" target="_self"><img src="assets/home-icon.png" width="20em"></a></th>
@@ -17,12 +18,12 @@
                 <th><a href="testimonials.html"  target="_self">Testimonials</a></th>
             </tr>
         </table>
+        <hr style="border: 2px solid blueviolet; width: 50%;">
        </nav>
-        <hr />
        <section>
-         <article id="aboutMe">
+         <article class="border" id="aboutMe">
             <h2><em>About Me</em></h2>
-             <img src="assets/aboutme.JPG" width="250px" >
+             <img src="assets/aboutme.JPG" class="center">
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
                     Placeat molestias harum aperiam labore nulla maiores sed,<br>
                     dolor natus ratione, optio ducimus, 
@@ -39,14 +40,17 @@
         <article id="pastExperience">
             
                <h2><em>Past Experience</em></h2>
-                 <img src="assets/pastExp.jpg" width="250px">
-             <table width="25%" border="1">
+                 <img src="assets/pastExp.jpg" class="center">
+             <table>
                 <caption>Employment History</caption>
+                <thead>
                     <tr>
                         <th>Year of Employment</th>
                         <th>Title</th>
                         <th>Company</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>The Software Guild</td>
                         <td>Apprentice</td>
@@ -62,11 +66,12 @@
                         <td>Q line logistics</td>
                         <td>2018-2019</td>
                     </tr>
+                </tbody>
             </table>
         </article>
         <article id="hobbies">
             <h2><em>Hobbies</em></h2>
-              <img src="assets/hobbies.jpg" width="250px">
+              <img src="assets/hobbies.jpg" class="center">
                     <ul>
                         <li><h5>Outdoor Activities</h5></li>
                         <ul>
